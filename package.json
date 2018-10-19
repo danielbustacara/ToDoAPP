@@ -1,0 +1,31 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "Proyecto demo ToDo APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbustacara/ToDoAPP.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "Daniel Bustacara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielbustacara/ToDoAPP/issues"
+  },
+  "homepage": "https://github.com/danielbustacara/ToDoAPP#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.4",
+    "npm": "^6.4.1"
+  }
+}
