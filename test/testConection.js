@@ -7,7 +7,8 @@ mongoose.Promise = global.Promise;
 //Connect to de Database
 before(function(done){
 
-  let uri = 'mongodb://localhost/demodb';
+  let uri = 'mongodb://daniel:Deftones92@ds037468.mlab.com:37468/danielbustacaradb';
+  //let uri = 'mongodb://localhost/demodb';
 
   mongoose.connect(uri,{ useNewUrlParser: true });
 
